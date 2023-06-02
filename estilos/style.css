@@ -48,28 +48,32 @@ nav a{
     color: var(--cor5);
     margin: 10px;
 }
-main{
-    min-width: 300px;
-    max-width: 800px;
-    margin: auto;
+nav a:hover{
+    text-decoration: underline;
 }
-main h1{
+section{
+    width: 70vw;
+    height: 50vh;
+}
+section h1{
     text-align: center;
-    margin: 20px;
 }
-main h2{
+section h2{
     padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 50px;
+    padding-left: 7vh;
 }
-main p{
-    float: left;
-    min-width: 100px;
-    max-width: 300px;
-    text-align:justify;
-    margin-left: 50px;
+section p{
+    display:inline-block;
+    width: 40vw;
+    padding-left: 5vh;
+    text-align: justify;
 }
 img{
-    float: right;
-    margin-right: 50px;
+    float: right; 
+    display: grid;  
+}   
+#img{
+    width: 100vw;
+    height: 100vh;
+    background: url(../imagens/skateboard-header-grito-1200x900.jpg) center no-repeat;
 }

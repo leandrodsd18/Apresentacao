@@ -1,0 +1,20 @@
+@charset 'utf-8'
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:lightgray;
+}
+section a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 40px;
+    color:white;
+    background-color: black;
+}
+section a:hover{
+    text-decoration: underline;
+}
