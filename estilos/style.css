@@ -52,8 +52,9 @@ nav a:hover{
     text-decoration: underline;
 }
 section{
-    width: 70vw;
-    height: 50vh;
+    width: 80vw;
+    height: 80vh;
+    position:relative;
 }
 section h1{
     text-align: center;
@@ -61,19 +62,28 @@ section h1{
 section h2{
     padding-top: 10px;
     padding-left: 7vh;
+    padding-bottom: 5px;
 }
 section p{
     display:inline-block;
     width: 40vw;
-    padding-left: 5vh;
     text-align: justify;
+    position: absolute;
+    left: 10%;
+
 }
-img{
-    float: right; 
-    display: grid;  
-}   
+div{
+    min-height: 300px;
+    max-width: 95vh;
+    position: absolute;
+    left: 70%;
+    top:65%;
+    transform: translate(-0%,-65%)
+}
+   
 #img{
-    width: 100vw;
-    height: 100vh;
-    background: url(../imagens/skateboard-header-grito-1200x900.jpg) center no-repeat;
+    width: 98vw;
+    height: 97vh;
+    background: url(../imagens/skateboard-header-grito-1200x900.jpg) center no-repeat fixed;
+    background-size: cover;
 }
